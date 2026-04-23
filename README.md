@@ -32,6 +32,18 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Deploy in a browser with Streamlit Community Cloud
+
+1. Go to `share.streamlit.io` and sign in with GitHub.
+2. Click **Create app**.
+3. Select repository: `WeUpFR/Finance-application`.
+4. Select branch: `main`.
+5. Set the entrypoint file to: `app.py`.
+6. Optional: choose your app URL / subdomain.
+7. Deploy.
+
+This repository is already organized for Streamlit Community Cloud with the app entrypoint in the repo root and dependencies declared in `requirements.txt`.
+
 ## Notes
 
 - This is a **strategy monitor**, not a broker-grade margin engine.
